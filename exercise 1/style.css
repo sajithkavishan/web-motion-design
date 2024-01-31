@@ -6,7 +6,7 @@
     font-family: Poppins, sans-serif;
 }
 
-body {
+section {
     background: #151618;
     height: 100vh;
     display: flex;
@@ -16,9 +16,11 @@ body {
     color: rgb(198, 198, 198);
 }
 
-section {
-    max-width: 50rem;
+.left-side {
+    margin-right: 60px;
+    max-width: 40rem;
 }
+
 
 .header {
     margin-bottom: 60px;
@@ -56,5 +58,11 @@ h4 {
 
 .info-p {
     font-size: 15px;
+}
 
+
+video {
+    border-radius: 8px;
+    border: 1px solid #48026a;
+    object-fit: cover;
 }
