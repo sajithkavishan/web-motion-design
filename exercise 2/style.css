@@ -5,3 +5,18 @@
     padding: 0;
     font-family: Poppins, sans-serif;
 }
+
+.hero {
+    position: relative;
+    height: 60vh;
+    color: white;
+}
+
+h1, span {
+    color: rgb(141, 142, 142);
+    font-size: 64px;
+}
+
+span {
+    color: #FFBF1A;
+}
