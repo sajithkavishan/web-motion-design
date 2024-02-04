@@ -3,4 +3,42 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    height: 50vh;
+    background: rgb(67, 67, 67);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.logo {
+    font-size: 42px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 56px;
+}
+
+nav ul a {
+    color: rgb(182, 182, 182);
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.2s ease-in-out;
+}
+
+nav ul a:hover {
+    color: white;
 }
